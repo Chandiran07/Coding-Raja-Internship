@@ -1,22 +1,48 @@
 # coding-raja-internship
-The goal of this project is create a Python app that lets you (as a user) track and categorize your monthly expenses and help you budget.
+# Expense Tracker
+  Welcome to the Expense Tracker! This console-based budget tracker helps you manage your expenses and stay within your budget. Track your spending, categorize expenses, and get insights into your financial habits.
 
-The app will let users type their expense category and amount directly into the terminal. It'll then save (append) that expense entry to a file. And finally, read the file to summarise the expense totals for that month.
+# Features
+Expense and Income Entry: Allows users to input expenses with categories and amounts.
 
-It'll also tell the user how much they can spend for the rest of the month to stay in budget (which is a custom value decided by your app, e.g. $2000.
+Budget Calculation: Calculates the remaining budget after deducting expenses from the initial budget.
 
-🎯 App Requirements
-1.Ask the user to add an expense (name, category, amount)
-2.Save expense entries to a .csv file.
-3.Read the file to summarise the expense totals for that month
-4.Show the user how much they can spend for the rest of the month (to stay in budget)
+Expense Analysis: Provides insights by categorizing expenses and displaying spending trends.
 
-✨ Bonus
-1.Show expenses by category
-2.Give the user a rough estimate of how much they have left to spend per day
+Data Persistence: Stores transactions in a CSV file for tracking over time.
 
-💡 Recommended Project Structure
-The final project will consist of 2 files:
+# Getting Started
+# Prerequisites
+Python 3.x installed on your machine.
+Setup
+Clone the repository:
 
-1.expense.py: A class for creating and storing expense objects.
-2.expense_tracker.py: The main application logic.
+bash
+Copy code
+git clone https://github.com/chandiran07/expense-tracker.git
+cd expense-tracker
+Run the main script:
+
+bash
+Copy code
+python expense_tracker.py
+# Usage
+When prompted, enter your initial budget.
+Add your expenses by providing the name, amount, and selecting a category.
+The transactions are saved to a CSV file for persistence.
+Run the script to see a summary of your expenses, categorized spending, and remaining budget.
+# Customization
+Modify the expense_categories list in expense_tracker.py to customize expense categories.
+Feel free to add more features or improve existing ones based on your needs.
+# Contributing
+If you'd like to contribute to this project, please follow these steps:
+
+Fork the repository.
+Create a new branch for your feature or bug fix.
+Make your changes and submit a pull request.
+# License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+# Acknowledgments
+Thanks to OpenAI for their incredible GPT models.
+Inspired by the need for a simple, console-based budget tracker.
